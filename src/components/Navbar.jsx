@@ -43,6 +43,11 @@ const Navbar = () => {
             ))
           }
         </ul>
+
+        <div className='flex mr-4'>
+          <button type='btn' className='capitalize px-9 py-3'>Sign In</button>
+        </div>
+
       </div>
     </div>
   )
