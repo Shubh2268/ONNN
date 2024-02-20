@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { LiaTimesSolid } from "react-icons/lia";
-import { HiBars3BottomLeft } from "react-icons/hi2";
+import { LiaTimesSolid } from 'react-icons/lia';
+import { HiBars3BottomLeft } from 'react-icons/hi2';
+import { FaFacebook, FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import GreenButton from './GreenButton';
 
 const Navbar = () => {
@@ -42,7 +43,7 @@ const Navbar = () => {
         <ul className='hidden sm:flex'>
           {
             links.map(({ id, link }) => (
-              <li key={id} className='capitalize text-lg font-medium p-4 cursor-pointer text-gray-100 hover:text-lightColor duration-200'>
+              <li key={id} className='text-lg font-medium sm:px-2 sm:py-4 lg:p-4 cursor-pointer uppercase text-gray-100 hover:text-lightColor duration-200'>
                 <a>
                   {link}
                 </a>
@@ -79,10 +80,10 @@ const Navbar = () => {
           <div className='mt-6 flex flex-col h-fit gap-12'>
             <GreenButton className='px-6 py-2 capitalize' title='sign in' />
 
-            <ul className='capitalize'>
+            <ul className='uppercase'>
               {
                 links.map(({ id, link }) => (
-                  <li key={id} className='py-2 text-lg uppercase cursor-pointer hover:text-lightColor'>
+                  <li key={id} className='py-2 text-lg text-center cursor-pointer hover:text-lightColor'>
                     <a>
                       {link}
                     </a>
@@ -91,7 +92,21 @@ const Navbar = () => {
               }
             </ul>
 
-            
+            <div className='grid grid-cols-2 mx-auto w-3/5 h-3/5 gap-10'>
+              <div className='flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3 cursor-pointer'>
+                <FaFacebook size={25} />
+              </div>
+              <div className='flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3 cursor-pointer'>
+                <FaTwitter size={25} />
+              </div>
+              <div className='flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3 cursor-pointer'>
+                <FaLinkedinIn size={25} />
+              </div>
+              <div className='flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3 cursor-pointer'>
+                <FaGithub size={25} />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
