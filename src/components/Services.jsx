@@ -31,9 +31,9 @@ const Services = () => {
 
             <div className='flex flex-col items-center justify-center max-w-screen-xl mx-auto h-full px-3 py-12'>
 
-                <h2 className='text-5xl font-bold text-center'>Services</h2>
+                <h2 className='text-4xl md:text-5xl font-bold text-center'>Services</h2>
 
-                <p className='text-xl py-8 text-gray-600 text-center'>
+                <p className='text-lg md:text-xl py-8 text-gray-600 text-center'>
                     At uttered there the late be bird answer, with more burned these my
                     something craven. Startled usby my marvelled on.
                 </p>
@@ -45,10 +45,8 @@ const Services = () => {
                                 <div>
                                     <FaChevronCircleRight size={20} className='mt-3 mr-4 text-lightColor' />
                                 </div>
-
                                 <div>
                                     <h3 className='font-bold text-lg text-lightColor py-2 capitalize'>{title}</h3>
-
                                     <p className='text-base p-4'>{subtitle}</p>
                                 </div>
                             </div>
