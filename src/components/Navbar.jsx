@@ -31,12 +31,12 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='w-full h-15 z-20 fixed bg-gray-900 text-white'>
+    <div className='w-full z-20 fixed bg-gray-900 text-white'>
 
       <div className='px-3 flex items-center justify-between w-full h-full'>
 
         <div className='flex items-center'>
-          <h1 className='text-3xl font-bold'>ONNN</h1>
+          <h1 className='text-2xl sm:text-3xl font-bold py-2 sm:py-0'>ONNN</h1>
         </div>
 
         <ul className='hidden sm:flex'>
@@ -52,7 +52,7 @@ const Navbar = () => {
         </ul>
 
         <div className='hidden sm:flex mr-4'>
-          <GreenButton title='sign in' className='capitalize font-medium px-9 py-3' />
+          <GreenButton title='sign in' className='capitalize font-medium px-5 py-2' />
         </div>
 
         {/* burger icon */}
@@ -69,7 +69,7 @@ const Navbar = () => {
         <div className={navigation ? 'fixed left-0 top-0 w-4/5 h-full bg-gray-900 text-white p-10 ease-in duration-500' : 'fixed top-0 left-[-100%] h-full p-10 duration-500 ease-in'}>
           <div>
             <div className='flex w-full items-center justify-between'>
-              <h2 onClick={() => setNavigation(false)} className='text-3xl font-bold capitalize cursor-pointer'>onnn</h2>
+              <h2 onClick={() => setNavigation(false)} className='text-2xl font-bold capitalize cursor-pointer'>ONNN</h2>
               <div className='p-3 cursor-pointer'>
                 <LiaTimesSolid onClick={() => setNavigation(false)} size={25} />
               </div>
@@ -77,12 +77,12 @@ const Navbar = () => {
           </div>
 
           <div className='mt-6 flex flex-col h-fit gap-12'>
-            <GreenButton className='px-9 py-3 capitalize' title='sign in' />
+            <GreenButton className='px-6 py-2 capitalize' title='sign in' />
 
             <ul className='capitalize'>
               {
                 links.map(({ id, link }) => (
-                  <li key={id} className='py-2 text-xl tracking-wide cursor-pointer'>
+                  <li key={id} className='py-2 text-lg uppercase cursor-pointer hover:text-lightColor'>
                     <a>
                       {link}
                     </a>
