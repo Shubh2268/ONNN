@@ -32,9 +32,9 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='w-full z-20 fixed bg-gray-900 text-white'>
+    <div className='w-full fixed bg-gray-900 text-white'>
 
-      <div className='px-3 flex items-center justify-between w-full h-full'>
+      <div className='px-5 flex items-center justify-between w-full h-full'>
 
         <div className='flex items-center'>
           <h1 className='text-2xl sm:text-3xl font-bold py-2 sm:py-0'>ONNN</h1>
@@ -43,7 +43,7 @@ const Navbar = () => {
         <ul className='hidden sm:flex'>
           {
             links.map(({ id, link }) => (
-              <li key={id} className='text-lg font-medium sm:px-2 sm:py-4 lg:p-4 cursor-pointer uppercase text-gray-100 hover:text-lightColor duration-200'>
+              <li key={id} className='text-lg font-medium sm:px-2 sm:py-4 lg:p-4 cursor-pointer uppercase text-gray-200 hover:text-lightColor duration-200'>
                 <a>
                   {link}
                 </a>
