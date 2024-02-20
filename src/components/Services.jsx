@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaChevronCircleRight } from 'react-icons/fa';
+import { FaCircleChevronRight } from "react-icons/fa6";
 
 const Services = () => {
 
@@ -43,7 +43,7 @@ const Services = () => {
                         services.map(({ id, title, subtitle }) => (
                             <div key={id} className='flex items-start p-4 bg-gray-900 text-gray-300 rounded-md'>
                                 <div>
-                                    <FaChevronCircleRight size={20} className='mt-3 mr-4 text-lightColor' />
+                                    <FaCircleChevronRight size={20} className='mt-3 mr-4 text-lightColor' />
                                 </div>
                                 <div>
                                     <h3 className='font-bold text-lg text-lightColor py-2 capitalize'>{title}</h3>
