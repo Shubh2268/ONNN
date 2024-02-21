@@ -1,6 +1,8 @@
 import React from 'react';
+import { FaPlusCircle } from 'react-icons/fa';
+import GreenButton from './GreenButton';
 
-const PriceCard = () => {
+const PriceCard = ({ priceCategory, dollor, features }) => {
     return (
         <div className='bg-white text-slate-900 m-4 rounded-xl overflow-hidden'>
             <div className='text-center bg-darkColor text-white py-4 uppercase'>
@@ -31,7 +33,7 @@ const PriceCard = () => {
 
                 </div>
 
-                <GreenBtn title='get started' className='capitalize text-xl w-full py-4 mt-14 rounded-none hover:border-none' />
+                <GreenButton title='get started' className='capitalize text-xl w-full py-4 mt-14 rounded-none hover:border-none' />
             </div>
         </div>
     )

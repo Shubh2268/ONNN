@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Services from './components/Services';
 import About from './components/About';
 import Support from './components/Support';
+import Pricing from './components/Pricing';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <About />
       <Support />
+      <Pricing />
     </div>
   )
 }
