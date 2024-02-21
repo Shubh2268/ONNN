@@ -43,7 +43,7 @@ const Navbar = () => {
         <ul className='hidden sm:flex'>
           {
             links.map(({ id, link }) => (
-              <li key={id} className='text-lg font-medium sm:px-2 sm:py-4 lg:p-4 cursor-pointer uppercase text-gray-200 hover:text-lightColor duration-200'>
+              <li key={id} className='text-lg font-medium sm:px-2 sm:py-4 lg:p-4 cursor-pointer capitalize text-gray-200 hover:text-lightColor duration-200'>
                 <a>
                   {link}
                 </a>
@@ -80,7 +80,7 @@ const Navbar = () => {
           <div className='mt-6 flex flex-col h-fit gap-12'>
             <GreenButton className='px-6 py-2 capitalize' title='sign in' />
 
-            <ul className='uppercase'>
+            <ul className='capitalize'>
               {
                 links.map(({ id, link }) => (
                   <li key={id} className='py-2 text-lg text-center cursor-pointer hover:text-lightColor'>
