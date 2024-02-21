@@ -47,7 +47,7 @@ const About = () => {
                 <div className='grid md:grid-cols-2 gap-10 px-2 w-full'>
                     {
                         details.map(({ id, title, subtitle }) => (
-                            <div key={id} className='flex items-center justify-center odd:skew-x-12 even:-skew-x-12 hover:skew-x-0 duration-300'>
+                            <div key={id} className='flex items-center justify-center md:odd:skew-x-12 md:even:-skew-x-12 md:hover:skew-x-0 duration-300'>
                                 <div className='flex flex-col items-center justify-center w-64 h-64 py-8 rounded-full shadow-lg shadow-lightColor'>
                                     <p className='text-5xl font-bold text-lightColor'>{title}</p>
                                     <p className='text-gray-400 mt-2 capitalize'>{subtitle}</p>

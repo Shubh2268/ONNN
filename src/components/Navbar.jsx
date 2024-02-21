@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { LiaTimesSolid } from 'react-icons/lia';
-import { HiBars3BottomLeft } from 'react-icons/hi2';
+import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { FaFacebook, FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import GreenButton from './GreenButton';
 
@@ -59,7 +59,7 @@ const Navbar = () => {
         {/* burger icon */}
         <div className='sm:hidden'>
           <div className='cursor-pointer'>
-            <HiBars3BottomLeft onClick={() => setNavigation(true)} size={25} />
+            <HiOutlineMenuAlt2 onClick={() => setNavigation(true)} size={25} />
           </div>
         </div>
 
