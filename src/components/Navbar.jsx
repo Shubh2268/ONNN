@@ -3,6 +3,8 @@ import { LiaTimesSolid } from 'react-icons/lia';
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { FaFacebook, FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import GreenButton from './GreenButton';
+import { Link } from 'react-scroll';
+
 
 const Navbar = () => {
 
@@ -43,10 +45,10 @@ const Navbar = () => {
         <ul className='hidden sm:flex'>
           {
             links.map(({ id, link }) => (
-              <li key={id} className='text-lg font-medium sm:px-2 sm:py-4 lg:p-4 cursor-pointer capitalize text-gray-200 hover:text-lightColor duration-200'>
-                <a>
+              <li key={id} className='capitalize text-lg p-4 cursor-pointer text-gray-200 hover:text-lightColor duration-200'>
+                <Link to={link} smooth duration={500}>
                   {link}
-                </a>
+                </Link>
               </li>
             ))
           }
@@ -84,9 +86,9 @@ const Navbar = () => {
               {
                 links.map(({ id, link }) => (
                   <li key={id} className='py-2 text-lg text-center cursor-pointer hover:text-lightColor'>
-                    <a>
+                    <Link onClick={() => setNavigation(false)} to={link} smooth duration={500} offset={-75}>
                       {link}
-                    </a>
+                    </Link>
                   </li>
                 ))
               }
