@@ -32,7 +32,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='w-full fixed bg-gray-900 text-white'>
+    <div className='w-full z-20 fixed bg-gray-900 text-white'>
 
       <div className='px-5 flex items-center justify-between w-full h-full'>
 
