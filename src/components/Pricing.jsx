@@ -5,12 +5,12 @@ const Pricing = () => {
     return (
         <div name='pricing' className='w-full h-fit text-white bg-gray-900'>
 
-            <div className='flex flex-col items-center justify-center max-w-screen-xl mx-auto h-full px-3 py-12'>
+            <div className='flex flex-col items-center justify-center max-w-screen-xl mx-auto h-full px-3 py-5 md:py-10'>
 
                 <div className='px-4 py-12 text-center'>
-                    <h2 className='text-5xl font-bold'>Pricing</h2>
+                    <h2 className='text-4xl md:text-5xl font-bold'>Pricing</h2>
 
-                    <p className='text-xl py-8 text-gray-400'>
+                    <p className='text-lg md:text-xl py-8 text-gray-400'>
                         Startled that over nothing hear and or it into. Lenore cushioned
                         angels something bust if from and for laden. Opened said nothing i
                         entreating a shorn nothing that, word perched.He bird repeating

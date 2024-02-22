@@ -29,19 +29,19 @@ const Support = () => {
     return (
         <div name='support' className='w-full h-fit bg-slate-300'>
 
-            <div className='flex flex-col items-center justify-center max-w-screen-xl mx-auto h-full px-3 py-12'>
+            <div className='flex flex-col items-center justify-center max-w-screen-xl mx-auto h-full px-3 py-5 md:py-10'>
 
-                <div className='px-4 py-12'>
-                    <h2 className='text-5xl font-bold text-center'>Support</h2>
+                <div className='px-4 py-8'>
+                    <h2 className='text-4xl md:text-5xl font-bold text-center'>Support</h2>
 
-                    <p className='text-xl py-8 text-gray-600 text-center'>
+                    <p className='text-xl py-6 text-gray-600 text-center'>
                         He bird repeating moment that repeating mortals rapping prophet a
                         with.
                     </p>
                 </div>
 
                 {/* support cards  */}
-                <div className='grid lg:grid-cols-3 gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black'>
+                <div className='grid lg:grid-cols-3 gap-x-8 gap-y-16 px-4 pt-8 md:pt-20 text-black'>
 
                     {
                         supportLinks.map(({ id, title, subtitle, icon }) => (

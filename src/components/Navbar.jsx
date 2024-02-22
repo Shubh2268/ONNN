@@ -42,7 +42,7 @@ const Navbar = () => {
           <h1 className='text-2xl sm:text-3xl font-bold py-2 sm:py-0'>ONNN</h1>
         </div>
 
-        <ul className='hidden sm:flex'>
+        <ul className='hidden md:flex'>
           {
             links.map(({ id, link }) => (
               <li key={id} className='capitalize text-lg p-4 cursor-pointer text-gray-200 hover:text-lightColor duration-200'>
@@ -54,7 +54,7 @@ const Navbar = () => {
           }
         </ul>
 
-        <div className='hidden sm:flex mr-4'>
+        <div className='hidden md:flex mr-4'>
           <GreenButton title='sign in' className='capitalize font-medium px-5 py-2' />
         </div>
 
@@ -68,7 +68,7 @@ const Navbar = () => {
       </div>
 
       {/* mobile menu  */}
-      <div className={navigation ? 'sm:hidden fixed left-0 top-0 w-full h-full bg-gray-900/70 backdrop-blur' : ''}>
+      <div className={navigation ? 'md:hidden fixed left-0 top-0 w-full h-full bg-gray-900/70 backdrop-blur' : ''}>
         <div className={navigation ? 'fixed left-0 top-0 w-4/5 h-full bg-gray-900 text-white p-10 ease-in duration-500' : 'fixed top-0 left-[-100%] h-full p-10 duration-500 ease-in'}>
           <div>
             <div className='flex w-full items-center justify-between'>

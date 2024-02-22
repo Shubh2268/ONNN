@@ -12,26 +12,26 @@ const Footer = () => {
                     {/* social icons  */}
                     <div className='w-3/4 md:w-1/2'>
                         <div className='grid grid-cols-2 mx-auto w-4/5 gap-10'>
-                            <div className='flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3     cursor-pointer hover:scale-105 duration-200 ease-in'>
+                            <div className='flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3 cursor-pointer hover:scale-105 duration-200 ease-in'>
                                 <FaFacebook size={25} />
                             </div>
 
-                            <div className='flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3     cursor-pointer hover:scale-105 duration-200 ease-in'>
+                            <div className='flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3 cursor-pointer hover:scale-105 duration-200 ease-in'>
                                 <FaLinkedin size={25} />
                             </div>
 
-                            <div className='flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3     cursor-pointer hover:scale-105 duration-200 ease-in'>
+                            <div className='flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3 cursor-pointer hover:scale-105 duration-200 ease-in'>
                                 <FaGithub size={25} />
                             </div>
 
-                            <div className='flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3     cursor-pointer hover:scale-105 duration-200 ease-in'>
+                            <div className='flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3 cursor-pointer hover:scale-105 duration-200 ease-in'>
                                 <FaTwitter size={25} />
                             </div>
                         </div>
                     </div>
 
                     {/* newsletter  */}
-                    <div className='w-3/4 md:w-1/2'>
+                    <div className='w-full md:w-1/2'>
                         <div className='w-full pt-8 md:pt-2'>
                             <p className='font-bold uppercase mb-8 text-lightColor text-lg text-center md:text-left'>
                                 Subscribe to our newsletter

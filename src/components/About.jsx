@@ -26,17 +26,17 @@ const About = () => {
     ];
 
     return (
-        <div name='about' className='w-full h-fit bg-gray-900 text-white py-10'>
+        <div name='about' className='w-full h-fit bg-gray-900 text-white py-5 md:py-10'>
 
             <div className='flex flex-col items-center justify-center max-w-screen-xl mx-auto h-full px-3 py-12'>
 
                 <div className='text-center'>
-                    <h2 className='text-5xl font-bold'>
+                    <h2 className='text-3xl md:text-5xl font-bold'>
                         By <span className='text-lightColor'>Developers</span> for {' '}
                         <span className='text-lightColor'>Developers</span>
                     </h2>
 
-                    <p className='text-xl font-light text-gray-500 py-8'>
+                    <p className='text-lg md:text-xl font-light text-gray-500 py-8'>
                         Door with mien stepped perched we name into youhere, i much both by
                         this thy flung. Visiter that ember what than, doubting shall
                         evermore him wrought prophet heard evermore. Tapping i form many

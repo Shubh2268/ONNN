@@ -4,10 +4,10 @@ import GreenButton from './GreenButton';
 
 const Home = () => {
     return (
-        <div name='home' className='flex flex-col justify-between w-full h-fit md:h-screen py-10 bg-gray-900 text-white text-center md:text-left'>
+        <div name='home' className='flex flex-col justify-between items-center w-full h-fit md:h-screen py-10 bg-gray-900 text-white text-center md:text-left'>
 
             <div className='grid md:grid-cols-2 max-w-screen-xl m-auto px-3'>
-                <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
+                <div className='flex flex-col justify-center md:items-start w-full px-2 py-10'>
 
                     <p className='text-lg lg:text-2xl text-gray-400'>Cheapest Hosting on the Earth</p>
 
