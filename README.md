@@ -27,6 +27,8 @@
 
 ONNN Web Services - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless functionality, and overall user experience set a high standard, serving as a reference for future modern applications or websites in general.
 
+It is a modern features based static website for web service provider, with gradient colour and smooth scrolling.
+
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
 - Vite
