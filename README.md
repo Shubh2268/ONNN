@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="https://onnn.netlify.app" target="_blank">
-      <img src="https://imagetolink.com/ib/XP9vnYO7u2.png" alt="FM Banner">
+      <img src="https://imagetolink.com/ib/XP9vnYO7u2.png" alt="onnn-Img">
     </a>
   <br />
 
@@ -37,11 +37,11 @@ It is a modern features based static website for web service provider, with grad
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Beautiful Sections**: Includes home, exercise results, exercise details, and footer.
+👉 **Beautiful Sections**: Includes home, services, about, support, pricing and footer.
 
 👉 **UI Geometry**: Utilizes tailwindcss for intricate shapes like cards, grid lines, and side lines.
 
-👉 **Latest UI Trends**: Incorporates modern design elements such as smooth scrolling and horizontal scrolling.
+👉 **Latest UI Trends**: Incorporates modern design elements such as smooth scrolling.
 
 👉 **Cool Gradients**: Enhances visuals with stylish gradients using Tailwind CSS for background, buttons, etc.
 
