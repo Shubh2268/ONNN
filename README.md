@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="https://onnn.netlify.app" target="_blank">
-      <img src="https://imagetolink.com/ib/a6X1vImo8a.png" alt="onnn-Img">
+      <img src="https://imagetolink.com/ib/73W4sn1BDm.png" alt="onnn-Img">
     </a>
   <br />
 
